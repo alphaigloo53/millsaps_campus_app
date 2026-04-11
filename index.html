@@ -14,7 +14,92 @@
     />
 
     <!--Custom CSS-->
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
 
-  
+  <body>
+
+    <!--Nav bar for the other pages -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Millsaps Campus Life</a>
+        <div>
+          <ul class="navbar-nav flex-row gap-3">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="events.html">Campus News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="weather.html">Weather</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--Welcome section -->
+    <div class="main-section text-center text-white py-5">
+      <div class="container">
+        <h1 class="display-4 fw-bold">Welcome to Millsaps</h1>
+        <p class="lead">Your app for campus life</p>
+      </div>
+    </div>
+
+    <!--Different feature cards for each section -->
+    <div class="container my-5">
+      <h2 class="text-center mb-4">What do you need?</h2>
+
+      <div class="row g-4 justify-content-center">
+
+        <!--Campus News -->
+        <div class="col-md-5">
+          <div class="card h-100 text-center p-3">
+            <div class="card-body">
+              <h3 class="card-title">Campus News</h3>
+              <p class="card-text">Stay up to date with the latest news and happenings at Millsaps and beyond.</p>
+              <!-- Button that takes user to the events page -->
+              <a href="events.html" class="btn btn-primary">Go to News</a>
+            </div>
+          </div>
+        </div>
+
+        <!--Weather -->
+        <div class="col-md-5">
+          <div class="card h-100 text-center p-3">
+            <div class="card-body">
+              <h3 class="card-title">Weather</h3>
+              <p class="card-text">Check the current weather and forecast for the Millsaps campus</p>
+              <!-- Button that takes user to the weather page -->
+              <a href="weather.html" class="btn btn-primary">Check Weather</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!--About section -->
+    <div class="container my-5">
+      <div class="card p-4">
+        <h3>About This App</h3>
+        <p>The Millsaps Campus Life App is a student built web app designed to make campus life easier. Use the navigation above to explore campus news and local weather.</p>
+      </div>
+    </div>
+
+    <!--Footer -->
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+      <p class="mb-0">Millsaps Campus Life App</p>
+    </footer>
+
+    <!--Placeholder for js link-->
+    <script src=""></script>
+
+  </body>
+</html>
+
+
+
+
+
