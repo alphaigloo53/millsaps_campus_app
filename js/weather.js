@@ -31,7 +31,27 @@ document.addEventListener("DOMContentLoaded", function() {
     weatherWind.textContent = Math.round(windSpeed) + " mph";
     weatherContainer.style.display = "block";
     let tip = "";
+    if (temp >= 90) {
+      tip = "It's hot out there! Stay hydrated and take breaks in the AC between classes.";
+    } else if (temp >= 70) {
+      tip = "Great weather to study outside on the quad!";
+    } else if (temp >= 50) {
+      tip = "Bring a light jacket to class today.";
+    } else {
+      tip = "Bundle up! It's cold on campus today.";
+    }
+
+    if (description.includes("rain")) {
+      tip = "Don't forget your umbrella — looks like rain today!";
+    }
+    weatherTip.textContent = tip;
+    tipContainer.style.display = "block";
+
+  }); 
+
+});
+
    
-  }
+  
 
 
