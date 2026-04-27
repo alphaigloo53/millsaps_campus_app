@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
     if (searchTerm === "") {
       searchTerm = "college campus";
     }
-    let apiKey = "PASTE_YOUR_NEWSAPI_KEY_HERE";
+    let apiKey = "3a796cfa6d5148d982912d0af2f88f84";
     let endpoint = `https://newsapi.org/v2/everything?q=${searchTerm}&language=en&pageSize=9&apiKey=${apiKey}`;
     newsContainer.innerHTML = "<p>Loading news...</p>";
     let response = await fetch(endpoint);

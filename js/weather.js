@@ -32,17 +32,17 @@ document.addEventListener("DOMContentLoaded", function() {
     weatherContainer.style.display = "block";
     let tip = "";
     if (temp >= 90) {
-      tip = "It's hot out there! Stay hydrated and take breaks in the AC between classes.";
+      tip = "It's hot out there! Wear some sunscreen.";
     } else if (temp >= 70) {
-      tip = "Great weather to study outside on the quad!";
+      tip = "Great weather to study outside in the bowl.";
     } else if (temp >= 50) {
-      tip = "Bring a light jacket to class today.";
+      tip = "Bring a jacket today";
     } else {
-      tip = "Bundle up! It's cold on campus today.";
+      tip = "Bundle up today, its cold.";
     }
 
     if (description.includes("rain")) {
-      tip = "Don't forget your umbrella — looks like rain today!";
+      tip = "Bring a rain jacket";
     }
     weatherTip.textContent = tip;
     tipContainer.style.display = "block";
