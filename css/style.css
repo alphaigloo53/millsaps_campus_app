@@ -16,3 +16,18 @@
 footer {
   margin-top: 40px;
 }
+
+.campus-img {
+  width: 80%;
+  border-radius: 8px;
+}
+
+.events-img {
+  width: 75%;
+  border-radius: 4px;
+}
+
+.weather-img {
+  width: 80%;
+  border-radius: 8px;
+}
