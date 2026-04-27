@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
     if (articles.length === 0) {
-      newsContainer.innerHTML = "<p>No articles found. Try a different search term!</p>";
+      newsContainer.innerHTML = "<p>No articles found. Try a different search term</p>";
     }
 
   }); 
